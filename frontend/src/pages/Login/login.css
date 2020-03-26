@@ -49,6 +49,16 @@
   flex-direction: column;
 }
 
+.form a {
+  margin-top: 15px;  padding: 8px;
+  text-decoration: none;
+  color: red;
+}
+
+.form a:hover {
+  color: rgba(255,0,0,0.5);;
+}
+
 .form form button {
   width: 100%;
   padding: 3px;

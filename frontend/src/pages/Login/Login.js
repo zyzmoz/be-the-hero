@@ -1,6 +1,6 @@
 import React from 'react';
-import imgHeroes from '../assets/heroes.png'
-import imgLogo from '../assets/logo.svg';
+import imgHeroes from '../../assets/heroes.png'
+import imgLogo from '../../assets/logo.svg';
 import './login.css';
 
 const Login = () => {
@@ -13,6 +13,7 @@ const Login = () => {
         <form>
           <input type="text" placeholder="Sua ID" />
           <button>Acessar</button>
+          <a href="#">Não tenho cadastro</a>
         </form>
 
       </div>
