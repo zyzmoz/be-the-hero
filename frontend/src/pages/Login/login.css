@@ -42,7 +42,7 @@
 
 }
 
-.form form {
+.login .form form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,10 +75,3 @@
   background-color: rgba(255,0,0,0.5);
 }
 
-
-.form form input {
-  padding: 3px;
-  border: 0.5px solid #d6d6d6;
-  border-radius: 3px;
-  font-size: 2em;
-}
